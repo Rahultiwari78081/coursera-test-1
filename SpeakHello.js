@@ -1,9 +1,13 @@
 (function(window){
-    var byeSpeaker={};
-    var speak="Good Bye";
-    byeSpeaker.sayBye=function(name){
-        console.log(speak+" "+name);
-    }
-    window.byeSpeaker=byeSpeaker;
 
-})(window);
+    var helloSpeaker ={};
+   
+   var speakWord = "Hello";
+   
+    helloSpeaker.speak=function(name) {
+     console.log(speakWord + " " + name);
+   }
+   
+   
+   window.helloSpeaker = helloSpeaker;
+   })(window);
