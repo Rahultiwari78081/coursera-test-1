@@ -1,8 +1,8 @@
 (function(window){
-var names=["jay","jom","jok","gh","gft","khh","hrt",satyendra","rom","jack","jor","jamu"];
+var names=["jay","jom","jok","gh","gft","khh"];
 for(var i in names){
     var firstletter=names[i].charAt(0).toLowerCase();
-    if(firstletter=='j'){
+    if(firstletter=='J'){
         window.byeSpeaker.sayBye(names[i]);
 
     }
